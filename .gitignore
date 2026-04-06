@@ -1,15 +1,8 @@
-# Large configuration dumps
-/ОтчетПоКонфигурацииБП3.txt
-/ОтчетПоКонфигурацииУПП1.3.txt
-/ПолныйОтчетПоВсейКонфигурацииУПП1.3.txt
+# Ignore everything in the repository root by default
+/*
 
-# Large comparison reports
-/ВедомостьПоТоварамНаСкладах(ПоложительныйКонечныйОстаток).mxl
-/ВедомостьПоВзаиморасчетамСКонтрагентами(КонечныйОстатокНеРавенНулю).mxl
-
-# Generated exchange files
-/КарточкиУПП_в_БП30.xml
-/КарточкиУПП_в_БП30_обработан.xml
-
-# Import/export logs
-/ОшибкиИмпортаБП3.txt
+# Keep tracked project files and source tree
+!/.gitignore
+!/README.md
+!/src/
+!/src/**
